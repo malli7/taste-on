@@ -103,7 +103,7 @@ export default function Home() {
 
       <footer className="bg-amber-900 text-amber-50 py-6 mt-16">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-lg">&copy; 2023 Spice Haven. All rights reserved.</p>
+          <p className="text-lg">&copy; 2024 Taste On. All rights reserved.</p>
         </div>
       </footer>
     </div>

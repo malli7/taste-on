@@ -16,7 +16,7 @@ export default function Home() {
           height={600}
           className="w-full h-[60vh] object-cover"
         />
-        <div className="absolute inset-0 z-20 flex flex-col items-center justify-center text-white">
+        <div className="absolute inset-0 z-20 md:pb-0 pb-10 flex flex-col items-center justify-center text-white">
           <h1 className="text-5xl font-bold mb-2 text-center">
             <Image
               src={

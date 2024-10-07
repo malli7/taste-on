@@ -48,7 +48,7 @@ export default function Home() {
       <main className="container mx-auto px-4 py-12">
         <section className="mb-16 text-center">
           <p className="text-xl mb-8">
-            We pride ourselves on delivering mouth-watering meals that are not
+            {`We pride ourselves on delivering mouth-watering meals that are not
             only packed with flavor but also made with the highest quality
             ingredients. Every dish is prepared with love, ensuring unbeatable
             freshness and hygiene standards, so you can indulge without worry.
@@ -58,7 +58,7 @@ export default function Home() {
             taste, uncompromising hygiene, and reasonable prices makes us your
             perfect choice for a satisfying meal. Whether you're craving a
             hearty meal or a light bite, TASTE ON delivers with care—straight to
-            your doorstep!
+            your doorstep!`}
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <Link

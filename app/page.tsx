@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="min-h-screen bg-amber-50 text-amber-900">
-      <header className="relative">
+      <header className="relative ">
         <div className="absolute inset-0 bg-black/60 z-10"></div>
         <Image
           src={
@@ -14,10 +14,10 @@ export default function Home() {
           alt="Taste On"
           width={1600}
           height={600}
-          className="w-full h-[60vh] object-cover"
+          className="w-full h-[70vh] object-cover"
         />
         <div className="absolute inset-0 z-20 md:pb-0 pb-10 flex flex-col items-center justify-center text-white">
-          <h1 className="text-5xl font-bold mb-2 text-center">
+         
             <Image
               src={
                 "https://res.cloudinary.com/naacloud/image/upload/v1728275327/lsrfqnszzvlwnxzcs3ne.png"
@@ -27,8 +27,8 @@ export default function Home() {
               height={200}
               className=" object-cover"
             />
-          </h1>
-          <h1 className="text-5xl font-bold mb-2 text-center">
+          
+          
             <Image
               src={
                 "https://res.cloudinary.com/naacloud/image/upload/v1728275466/umjji0tpe51ctqwxpxxx.png"
@@ -38,7 +38,7 @@ export default function Home() {
               height={200}
               className=" object-cover"
             />
-          </h1>
+     
           <p className="text-2xl italic mb-4 text-center">
             The Name Says it, The Flavour Proves it
           </p>

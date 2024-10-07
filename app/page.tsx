@@ -23,8 +23,8 @@ export default function Home() {
                 "https://res.cloudinary.com/naacloud/image/upload/v1728275327/lsrfqnszzvlwnxzcs3ne.png"
               }
               alt="Taste On"
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               className=" object-cover"
             />
           </h1>
@@ -34,8 +34,8 @@ export default function Home() {
                 "https://res.cloudinary.com/naacloud/image/upload/v1728275466/umjji0tpe51ctqwxpxxx.png"
               }
               alt="Taste On"
-              width={100}
-              height={100}
+              width={200}
+              height={200}
               className=" object-cover"
             />
           </h1>
